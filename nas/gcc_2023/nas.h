@@ -344,10 +344,19 @@ struct name
     /* these are in the same bitspace as operand.flags, but only ever 
        appear in insn.operand_flags[] to aid in matching or encoding. */
 
-#define O_I_ENDREG      0x8000000000000000L     /* xxxxxRRR and REX.B */
-#define O_I_MIDREG      0x4000000000000000L     /* xxRRRxxx and REX.R */
-#define O_I_MODRM       0x2000000000000000L     /* MMxxxRRR and REX.B/REX.X */
-#define O_I_REL         0x1000000000000000L     /* emit this immediate as rIP-relative */
+/* #define O_I_ENDREG   0x8000000000000000L */  /* xxxxxRRR and REX.B */
+/* #define O_I_MIDREG   0x4000000000000000L */  /* xxRRRxxx and REX.R */
+/* #define O_I_MODRM    0x2000000000000000L */  /* MMxxxRRR and REX.B/REX.X */
+/* #define O_I_REL      0x1000000000000000L */  /* emit this immediate as rIP-relative */
+
+    /* Erdogan tan - 12/10/2023 */
+    /* long long (LL) (Modification for TDM-GCC-64 for windows, GCC 10) */ 
+    /* (to fix 'long long' to 'long' conversion defects and wrong opcode output) */
+	
+#define O_I_ENDREG      0x8000000000000000LL    /* xxxxxRRR and REX.B */
+#define O_I_MIDREG      0x4000000000000000LL    /* xxRRRxxx and REX.R */
+#define O_I_MODRM       0x2000000000000000LL    /* MMxxxRRR and REX.B/REX.X */
+#define O_I_REL         0x1000000000000000LL    /* emit this immediate as rIP-relative */
 
 struct operand
 {
@@ -364,14 +373,19 @@ struct operand
 
 /* the instruction table */
 
+/* Erdogan Tan - 12/10/2023 */
+/* ('long long' Modification for TDM-GCC-64 for windows, GCC 10) */
+
 struct insn
 {
     char        * mnemonic;
     int           nr_operands;
-    long          operand_flags[MAX_OPERANDS];      /* O_* and O_I_* */
+    /* long       operand_flags[MAX_OPERANDS]; */ 	
+    long long     operand_flags[MAX_OPERANDS];      /* O_* and O_I_* */
     int           nr_opcodes;
     char          opcodes[MAX_INSN_OPCODES];
-    long          insn_flags;                       /* I_* */
+    /* long long  insn_flags; */
+    long long     insn_flags;                       /* I_* */
 
     struct name * name;
 };
@@ -383,14 +397,26 @@ struct insn
 #define I_DATA_32       0x0000000000000004L  
 #define I_DATA_64       0x0000000000000008L
 
-#define I_PREFIX_66     0x0200000000000000L     /* 0x66 prefix (precedes REX) */
-#define I_PREFIX_F3     0x0400000000000000L     /* 0xF3 prefix (precedes REX) */
-#define I_PREFIX_F2     0x0800000000000000L     /* 0xF2 prefix (precedes REX) */
+/* Erdogan Tan - 12/10/2023 */
+/* ('long long' Modification for TDM-GCC-64 for windows, GCC 10) */
 
-#define I_NO_DATA_REX   0x1000000000000000L     /* 64-bit operand default: no REX for 64-bit data */
-#define I_NO_BITS_16    0x2000000000000000L     /* instruction not available in .bits 16 */
-#define I_NO_BITS_32    0x4000000000000000L     /* instruction not available in .bits 32 */
-#define I_NO_BITS_64    0x8000000000000000L     /* instruction not available in .bits 64 */
+/* #define I_PREFIX_66  0x0200000000000000L */   /* 0x66 prefix (precedes REX) */
+/* #define I_PREFIX_F3  0x0400000000000000L */   /* 0xF3 prefix (precedes REX) */
+/* #define I_PREFIX_F2  0x0800000000000000L */   /* 0xF2 prefix (precedes REX) */
+
+/* #define I_NO_DATA_REX 0x1000000000000000L */  /* 64-bit operand default: no REX for 64-bit data */
+/* #define I_NO_BITS_16  0x2000000000000000L */  /* instruction not available in .bits 16 */
+/* #define I_NO_BITS_32  0x4000000000000000L */  /* instruction not available in .bits 32 */
+/* #define I_NO_BITS_64  0x8000000000000000L */  /* instruction not available in .bits 64 */
+
+#define I_PREFIX_66     0x0200000000000000LL     /* 0x66 prefix (precedes REX) */
+#define I_PREFIX_F3     0x0400000000000000LL     /* 0xF3 prefix (precedes REX) */
+#define I_PREFIX_F2     0x0800000000000000LL     /* 0xF2 prefix (precedes REX) */
+
+#define I_NO_DATA_REX   0x1000000000000000LL     /* 64-bit operand default: no REX for 64-bit data */
+#define I_NO_BITS_16    0x2000000000000000LL     /* instruction not available in .bits 16 */
+#define I_NO_BITS_32    0x4000000000000000LL     /* instruction not available in .bits 32 */
+#define I_NO_BITS_64    0x8000000000000000LL     /* instruction not available in .bits 64 */
 
 extern struct insn       insns[];
 extern int               pass;
