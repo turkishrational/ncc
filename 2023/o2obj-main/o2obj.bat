@@ -1,0 +1,1 @@
+gcc -static -o o2obj.exe -O2 o2obj.c 2>status.txt
