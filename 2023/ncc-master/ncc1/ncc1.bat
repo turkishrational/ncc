@@ -1,0 +1,1 @@
+gcc -g -o ncc1.exe ncc1.c block.c decl.c gen.c init.c lex.c opt.c output.c reg.c stmt.c symbol.c tree.c type.c
