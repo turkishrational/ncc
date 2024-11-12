@@ -1,0 +1,46 @@
+pseudo.c:52:1: warning: non-void function does not return a value [-Wreturn-type]
+   52 | }
+      | ^
+pseudo.c:54:39: warning: non-void function does not return a value [-Wreturn-type]
+   54 | pseudo_byte() { pseudo_bwdq(O_IMM_8); }
+      |                                       ^
+pseudo.c:55:40: warning: non-void function does not return a value [-Wreturn-type]
+   55 | pseudo_word() { pseudo_bwdq(O_IMM_16); }
+      |                                        ^
+pseudo.c:56:41: warning: non-void function does not return a value [-Wreturn-type]
+   56 | pseudo_dword() { pseudo_bwdq(O_IMM_32); }
+      |                                         ^
+pseudo.c:57:41: warning: non-void function does not return a value [-Wreturn-type]
+   57 | pseudo_qword() { pseudo_bwdq(O_IMM_64); }
+      |                                         ^
+pseudo.c:90:1: warning: non-void function does not return a value [-Wreturn-type]
+   90 | }
+      | ^
+pseudo.c:100:1: warning: non-void function does not return a value [-Wreturn-type]
+  100 | }
+      | ^
+pseudo.c:115:1: warning: non-void function does not return a value [-Wreturn-type]
+  115 | }
+      | ^
+pseudo.c:136:1: warning: non-void function does not return a value [-Wreturn-type]
+  136 | }
+      | ^
+pseudo.c:146:1: warning: non-void function does not return a value [-Wreturn-type]
+  146 | }
+      | ^
+pseudo.c:151:1: warning: non-void function does not return a value [-Wreturn-type]
+  151 | }
+      | ^
+pseudo.c:185:1: warning: non-void function does not return a value [-Wreturn-type]
+  185 | }
+      | ^
+pseudo.c:216:1: warning: non-void function does not return a value [-Wreturn-type]
+  216 | }
+      | ^
+pseudo.c:226:1: warning: non-void function does not return a value [-Wreturn-type]
+  226 | }
+      | ^
+pseudo.c:246:1: warning: non-void function does not return a value [-Wreturn-type]
+  246 | }
+      | ^
+15 warnings generated.
