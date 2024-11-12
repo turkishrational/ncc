@@ -1,0 +1,1 @@
+tcc nas.c name.c input.c output.c pseudo.c insn.c
