@@ -1,0 +1,28 @@
+as86.exe ve xcc.exe
+----------------------------------------
+llvm-mingw-20241030-msvcrt-i686
+----------------------------------------
+llvm-mingw-20241030-msvcrt-x86_64
+----------------------------------------
+
+31/10/2024 tarihli LLVM-MINGW paketindeki
+mingw32-make ile oluþturulabildi.
+(make clang.exe, o da clang-19.exe kullanýyor -gcc.exe adýyla-)
+as86.exe dosya boyutu 201KB.
+xcc.exe dosya botutu 106KB
+
+24/05/2021 (bin dizinindeki dosya tarihleri)
+tarihli TDM-GCC-64 dengi ile oluþturulamadý hata verdi.
+(make GCC.EXE kullanýyor.)
+
+19/03/2024 tarihli TDM-GCC-32 paketindeki
+mingw32-make ile oluþturulabildi.
+fakat as86.exe dosya boyutu 293KB.
+
+31/10/2024 tarihli LLVM-MINGW-64 paketindeki
+mingw32-make ile as86.exe oluþturulamadý.
+TDM-GCC-64 paketi ile ayný hatalarý verdi
+(long integer vs problemi)
+xcc.exe dosya boyutu 124KB (18KB daha büyük).
+
+Erdogan Tan - 08/11/2024
