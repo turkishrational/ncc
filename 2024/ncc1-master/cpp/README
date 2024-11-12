@@ -1,0 +1,18 @@
+This preprocessor is fully conformant to ANSI C89/ISO C90, except:
+
+	- trigraphs are not supported, and
+	- wide characters/string literals are not recognized.
+
+These features were deliberately omitted, on the grounds that they're stupid.
+
+When given the -x flag, C++ comments and tokens (::, ->, ->*) are honored.
+This aligns the preprocessor with the C++ ARM, minus the digraphs and keyword
+operators (e.g., 'and_eq') mentioned in chapter 19 (later adopted by C++98).
+As with the missing C89 features cited above, these are deliberately omitted.
+
+This code should be architecturally sound, though it has not been extensively
+tested or performance tuned. There are undoubtedly many lurking [minor] bugs.
+
+Charles E. Youse
+<charles@gnuless.org>
+19 September 2021
