@@ -1,0 +1,1193 @@
+o2obj.c: In function 'WriteTranslatorHeaderRecord':
+o2obj.c:1085:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1085 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1094:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1094 |                                &usRecordLength,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1096:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1096 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1105:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1105 |                                &ulModuleNameLength,
+      |                                ^~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1107:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1107 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1118:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1118 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1127:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1127 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1129:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1129 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteCommentRecord':
+o2obj.c:1166:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1166 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1175:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1175 |                                &usRecordLength,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1177:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1177 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1186:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1186 |                                &usAttrib,
+      |                                ^~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1188:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1188 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1197:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1197 |                                &usCommentClass,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1199:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1199 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1211:39: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1211 |                                       &ulBytesWritten);
+      |                                       ^~~~~~~~~~~~~~~
+      |                                       |
+      |                                       ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1216:39: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1216 |                                       &ulBytesWritten);
+      |                                       ^~~~~~~~~~~~~~~
+      |                                       |
+      |                                       ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1225:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1225 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1227:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1227 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteListOfNamesRecord':
+o2obj.c:1245:35: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1245 |                                   &ulBytesWritten);
+      |                                   ^~~~~~~~~~~~~~~
+      |                                   |
+      |                                   ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1250:35: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1250 |                                   &ulBytesWritten);
+      |                                   ^~~~~~~~~~~~~~~
+      |                                   |
+      |                                   ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1261:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1261 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1273:30: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1273 |                              &ulBytesWritten);
+      |                              ^~~~~~~~~~~~~~~
+      |                              |
+      |                              ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1278:35: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1278 |                                   &ulBytesWritten);
+      |                                   ^~~~~~~~~~~~~~~
+      |                                   |
+      |                                   ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteSegmentDefinitionRecord':
+o2obj.c:1318:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1318 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1327:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1327 |                                &usRecordLength,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1329:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1329 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1338:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1338 |                                &usSegmentAttributes,
+      |                                ^~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1340:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1340 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1349:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1349 |                                &ulLength,
+      |                                ^~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1351:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1351 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1360:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1360 |                                &usSegmentName,
+      |                                ^~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1362:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1362 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1371:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1371 |                                &usClassName,
+      |                                ^~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1373:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1373 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1382:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1382 |                                &usOverlayName,
+      |                                ^~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1384:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1384 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1393:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1393 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1395:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1395 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteGroupDefinitionRecord':
+o2obj.c:1413:35: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1413 |                                   &ulBytesWritten);
+      |                                   ^~~~~~~~~~~~~~~
+      |                                   |
+      |                                   ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1418:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1418 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteFirstFixupRecord':
+o2obj.c:1435:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1435 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteExtNamesDefRecord':
+o2obj.c:1469:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1469 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1478:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1478 |                                &usRecordLength,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1480:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1480 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1491:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1491 |                                &usTemp,
+      |                                ^~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1493:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1493 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1504:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1504 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1513:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1513 |                                &usTypeIndex,
+      |                                ^~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1515:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1515 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1524:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1524 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1526:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1526 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteLocalExtDefRecord':
+o2obj.c:1559:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1559 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1568:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1568 |                                &usRecordLength,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1570:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1570 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1581:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1581 |                                &usTemp,
+      |                                ^~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1583:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1583 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1594:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1594 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1603:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1603 |                                &usTypeIndex,
+      |                                ^~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1605:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1605 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1614:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1614 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1616:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1616 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteLocalPublic386Record':
+o2obj.c:1659:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1659 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1668:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1668 |                                &usRecordLength,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1670:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1670 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1681:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1681 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1692:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1692 |                                &usTemp,
+      |                                ^~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1694:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1694 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1705:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1705 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1714:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1714 |                                &ulSegmentOffset,
+      |                                ^~~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1716:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1716 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1725:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1725 |                                &usTypeIndex,
+      |                                ^~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1727:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1727 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1736:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1736 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1738:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1738 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WritePublic386Record':
+o2obj.c:1784:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1784 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1793:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1793 |                                &usRecordLength,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1795:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1795 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1804:34: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1804 |                                  &usGroupIndex,
+      |                                  ^~~~~~~~~~~~~
+      |                                  |
+      |                                  USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1806:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1806 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1815:34: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1815 |                                  &usSegmentIndex,
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1817:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1817 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1827:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1827 |                                &usTemp,
+      |                                ^~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1829:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1829 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1840:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1840 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1849:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1849 |                                &ulSegmentOffset,
+      |                                ^~~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1851:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1851 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1860:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1860 |                                &usTypeIndex,
+      |                                ^~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1862:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1862 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1871:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1871 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1873:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1873 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteLogicalEnumData386Record':
+o2obj.c:1906:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1906 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1915:34: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1915 |                                  &usRecordLength,
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1917:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1917 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1926:34: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1926 |                                  &usSegment,
+      |                                  ^~~~~~~~~~
+      |                                  |
+      |                                  USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1928:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1928 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1937:34: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1937 |                                  &ulStart,
+      |                                  ^~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1939:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1939 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1950:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1950 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1965:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1965 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1967:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1967 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteModuleEndRecord':
+o2obj.c:1987:39: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1987 |                                       &ulBytesWritten);
+      |                                       ^~~~~~~~~~~~~~~
+      |                                       |
+      |                                       ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:1990:39: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1990 |                                       &MainEntryAddress,
+      |                                       ^~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:1992:39: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 1992 |                                       &ulBytesWritten);
+      |                                       ^~~~~~~~~~~~~~~
+      |                                       |
+      |                                       ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2002:39: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2002 |                                       &ulCheckSum,
+      |                                       ^~~~~~~~~~~
+      |                                       |
+      |                                       ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2004:39: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2004 |                                       &ulBytesWritten);
+      |                                       ^~~~~~~~~~~~~~~
+      |                                       |
+      |                                       ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2010:39: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2010 |                                       &ulBytesWritten);
+      |                                       ^~~~~~~~~~~~~~~
+      |                                       |
+      |                                       ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'FlushFixupRecord':
+o2obj.c:2053:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2053 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2062:34: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2062 |                                  &usRecordLength,
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2064:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2064 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2075:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2075 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2084:34: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2084 |                                  &ulCheckSum,
+      |                                  ^~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2086:34: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2086 |                                  &ulBytesWritten);
+      |                                  ^~~~~~~~~~~~~~~
+      |                                  |
+      |                                  ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteCommunalNamesDefRecord':
+o2obj.c:2304:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2304 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2313:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2313 |                                &usRecordLength,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2315:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2315 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2326:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2326 |                                &usTemp,
+      |                                ^~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2328:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2328 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2339:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2339 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2348:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2348 |                                &usTypeIndex,
+      |                                ^~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2350:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2350 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2361:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2361 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2375:41: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2375 |                                         &ulBytesWritten);
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         |
+      |                                         ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2389:41: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2389 |                                         &ulBytesWritten);
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         |
+      |                                         ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2403:41: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2403 |                                         &ulBytesWritten);
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         |
+      |                                         ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2417:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2417 |                                &ulSize,
+      |                                ^~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2419:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2419 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2428:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2428 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2430:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2430 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteLocalCommunalNamesDefRecord':
+o2obj.c:2493:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2493 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2502:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2502 |                                &usRecordLength,
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2504:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2504 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2515:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2515 |                                &usTemp,
+      |                                ^~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2517:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2517 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2528:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2528 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2537:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2537 |                                &usTypeIndex,
+      |                                ^~~~~~~~~~~~
+      |                                |
+      |                                USHORT * {aka short unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'USHORT *' {aka 'short unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2539:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2539 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2550:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2550 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2564:41: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2564 |                                         &ulBytesWritten);
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         |
+      |                                         ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2578:41: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2578 |                                         &ulBytesWritten);
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         |
+      |                                         ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2592:41: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2592 |                                         &ulBytesWritten);
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         |
+      |                                         ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2606:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2606 |                                &ulSize,
+      |                                ^~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2608:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2608 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c:2617:32: warning: passing argument 2 of 'DosWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2617 |                                &ulCheckSum,
+      |                                ^~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:33: note: expected 'char *' but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                           ~~~~~~^~~~~~~~~~~~
+o2obj.c:2619:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2619 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'WriteStackSegment':
+o2obj.c:2635:32: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2635 |                                &ulBytesWritten);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                ULONG * {aka long unsigned int *}
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'ULONG *' {aka 'long unsigned int *'}
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
+o2obj.c: In function 'safe_write':
+o2obj.c:2644:41: warning: passing argument 4 of 'DosWrite' makes integer from pointer without a cast [-Wint-conversion]
+ 2644 |     rc = DosWrite(hFileO, data, length, &written);
+      |                                         ^~~~~~~~
+      |                                         |
+      |                                         unsigned int *
+o2obj.c:26:63: note: expected 'ULONG' {aka 'long unsigned int'} but argument is of type 'unsigned int *'
+   26 | ULONG DosWrite(int hFileO,char *chRecordType,ULONG size,ULONG ulBytesWritten );
+      |                                                         ~~~~~~^~~~~~~~~~~~~~
