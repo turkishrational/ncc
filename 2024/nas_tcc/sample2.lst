@@ -1,0 +1,30 @@
+
+sample2.asm
+
+    1                           .bits 32
+    2                           
+    3                           .text
+    4                           
+    5                           start:
+    6 0000000 BE00000000        	mov esi, message	 	 
+    7 0000005 E807000000                call print_msg
+    8                           
+    9 000000A B801000000        	mov eax, 1
+   10 000000F CD40              	int 0x40
+   11                           
+   12                           print_msg:
+   13 0000011 B40E                      mov ah, 0x0E
+   14 0000013 BB07000000                mov ebx, 7 
+   15                           loop:
+   16 0000018 AC                        lodsb
+   17 0000019 20C0                      and al, al
+   18 000001B 7404                      jz ok
+   19 000001D CD31                      int 0x31
+   20 000001F EBF7                      jmp loop
+   21                           ok:
+   22 0000021 C3                        ret 
+   23                           
+   24 0000022 48656C6C6F20576F  message: .ascii 'Hello World!'
+              726C6421      
+   25 000002E 0D0A00                     .byte 0x0D,0x0A,0
+   26                           
