@@ -1,0 +1,29 @@
+
+sample.asm
+
+    1                           .bits 32
+    2                           
+    3                           .text
+    4                           
+    5                           kernel:
+    6 0000000 CD80              	int 0x80 ; Call kernel
+    7                           
+    8 0000002 EB01              	jmp open
+    9                           
+   10                           kernel2:
+   11 0000004 C3                	ret 
+   12                           
+   13                           open:
+   14 0000005 FF30                      push dword [_mode]
+   15 0000007 FF30                      push dword [_flags]
+   16 0000009 FF30                      push dword [_path]
+   17 000000B B805000000                mov eax, 5
+   18 0000010 E800000000        	call kernel2
+   19 0000015 83000C                    add esp, 12
+   20 0000018 C3                        ret
+   21                           
+   22                           .data
+   23                           
+   24 0000000 05000000          _mode:  .dword 5
+   25 0000004 03000000          _flags: .dword 3
+   26 0000008 07000000          _path:  .dword 7
