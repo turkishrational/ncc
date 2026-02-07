@@ -1,0 +1,1 @@
+gcc -Wno-implicit-int -Wno-implicit-function-declaration -Wno-deprecated-non-prototype -o nld.exe nld.c
