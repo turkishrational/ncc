@@ -2,4 +2,6 @@ ar.exe
 LLVM-MINGW ve LLVM-MINGW-64 ile oluþturuldu.
 64 bit olanýn adýný ar_64.exe olarak deðiþtirdim.
 
+(komut satýrýndan armake.bat çalýþtýrdým)
+
 Erdoðan Tan - 08/02/2026
